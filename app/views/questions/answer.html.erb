@@ -1,0 +1,15 @@
+<div class="card m-2 ps-2">
+  <div class="card-body">
+   <blockquote class="blockquote mb-0">
+  <p><%= @question %></p>
+  <footer class="blockquote-footer fst-italic">You.</footer>
+  <br>
+   </blockquote>
+    <blockquote class="blockquote mb-0">
+      <p class="fw-bold"><%= @answer %></p>
+      <footer class="blockquote-footer fst-italic">Your coach.</footer>
+    </blockquote>
+  </div>
+</div>
+<br>
+<%= link_to "Ask a new question", ask_path %>
